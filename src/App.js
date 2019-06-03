@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
+import './less/App.css';
+import WebsiteDisplay from "./components/js/websiteDisplay"
 
 const App = () => {
   return (
     <div>
-      <CalculatorDisplay/>
+      <WebsiteDisplay/>
     </div>
   );
 };
