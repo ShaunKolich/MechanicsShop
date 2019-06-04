@@ -3,3 +3,12 @@
   height: 1000px;
   border: 2px solid red;
 }
+.main_Container .logo_container {
+  width: 50%;
+  border: 2px solid black;
+}
+.main_Container .logo_container .logo {
+  width: 50%;
+  height: 100px;
+  border: 2px solid blue;
+}
