@@ -1,27 +1,22 @@
 .main_Container {
   width: 100%;
   height: 1000px;
-  border: 2px solid red;
 }
 .main_Container .logo_container {
-  width: 50%;
-  border: 2px solid black;
+  width: 40%;
 }
 .main_Container .logo_container .logo {
   width: 50%;
   height: 100px;
-  border: 2px solid blue;
   display: flex;
   justify-content: center;
 }
 .main_Container .contact_nav_container {
-  width: 50%;
-  border: 2px solid blue;
+  width: 60%;
 }
 .main_Container .contact_nav_container .contactInfo {
   width: 100%;
   height: 50%;
-  border: 2px solid red;
 }
 .main_Container .contact_nav_container .contactInfo ul {
   width: 100%;
@@ -29,18 +24,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
 }
 .main_Container .contact_nav_container .contactInfo ul li {
   padding-right: 1.25rem;
 }
 .main_Container .contact_nav_container .contactInfo ul i {
-  font-size: 1.5rem;
+  font-size: 2vh;
   padding-right: 0.937rem;
   color: darkred;
 }
 .main_Container .contact_nav_container .contactInfo ul span {
-  font-size: 1.00rem;
+  font-size: 2vh;
   font-weight: 400;
   color: black;
 }
@@ -48,4 +42,14 @@
   width: 100%;
   height: 50%;
   border: 2px solid red;
+  display: flex;
+}
+.main_Container .contact_nav_container .topNav ul {
+  display: flex;
+}
+.main_Container .contact_nav_container .topNav ul li {
+  color: darkred;
+  margin-right: 20%;
+  text-decoration: none;
+  border: 2px solid black;
 }
