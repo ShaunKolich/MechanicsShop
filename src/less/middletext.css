@@ -60,12 +60,12 @@
   color: darkred;
   width: 100%;
   height: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .middle_Text_container .middle_info .div2 p {
   width: 100%;
   padding-top: 10px;
-  font-size: 2.1vh;
+  font-size: 2.0vh;
   width: 50%;
   line-height: 1.5;
 }

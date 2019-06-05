@@ -4,6 +4,7 @@ import '../../less/home.css'
 
 import HeaderContainer from './header';
 import MiddleText from './middletext';
+import Back_Img from './backgroundimg';
 
 class Home extends Component {
     render() {
@@ -15,7 +16,8 @@ class Home extends Component {
                         <HeaderContainer/>
                     </Col>
                 </Row>
-                <MiddleText/>
+                <MiddleText />
+                <Back_Img/>
             </div>
         )
     }
