@@ -1,0 +1,100 @@
+.middle_Text_container {
+  width: 100%;
+  height: 500px;
+  border: 2px solid blue;
+}
+.middle_Text_container .middle_img {
+  width: 100%;
+  height: 500px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.middle_Text_container .middle_img h2 {
+  font-size: 4vh;
+  color: darkred;
+  font-weight: 700;
+}
+.middle_Text_container .middle_img p {
+  padding-top: 10px;
+  font-size: 2.5vh;
+  width: 50%;
+  line-height: 1.5;
+  color: black;
+}
+.middle_Text_container .middle_img img {
+  width: 80%;
+  height: auto;
+}
+.middle_Text_container .middle_info {
+  width: 100%;
+  height: 100%;
+  border: 2px solid green;
+  display: flex;
+}
+.middle_Text_container .middle_info .div1 {
+  width: 50%;
+  height: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.middle_Text_container .middle_info .div1 i {
+  font-size: 4vh;
+  color: white;
+  background-color: darkred;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+}
+.middle_Text_container .middle_info .div2 {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middle_Text_container .middle_info .div2 h2 {
+  font-size: 4vh;
+  color: darkred;
+  width: 100%;
+  height: 100%;
+  border: 2px solid blue;
+}
+.middle_Text_container .middle_info .div2 p {
+  width: 100%;
+  padding-top: 10px;
+  font-size: 2.1vh;
+  width: 50%;
+  line-height: 1.5;
+  color: black;
+}
+@media (max-width: 1024px) {
+  .middle_Text_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1020px) {
+  .middle_Text_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .middle_Text_container .middle_info .div2 {
+    display: none;
+    padding-top: 10%;
+    width: 100%;
+  }
+  .middle_Text_container .middle_info .div1 {
+    padding-top: 10%;
+    width: 100%;
+  }
+}

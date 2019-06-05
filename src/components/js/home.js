@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'fluid-react';
 import '../../less/home.css'
 
 import HeaderContainer from './header';
+import MiddleText from './middletext';
+
 class Home extends Component {
     render() {
         return (
@@ -13,6 +15,7 @@ class Home extends Component {
                         <HeaderContainer/>
                     </Col>
                 </Row>
+                <MiddleText/>
             </div>
         )
     }

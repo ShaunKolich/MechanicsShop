@@ -35,7 +35,7 @@ const content = [
         description:
             'Hi this is a test',
         button: 'Buy now',
-        image: '../../img/aston-2118857_1280.jpg',
+        image:'../../img/aston-2118857_1280.jpg',
 
     }
 ];
