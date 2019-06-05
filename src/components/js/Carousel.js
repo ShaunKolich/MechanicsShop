@@ -18,7 +18,7 @@ const content = [
         description:
             'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
         button: 'Read More',
-        image: { Bugatti },
+        image: 'https://i.imgur.com/DvmN8Hx.jpg',
 
     },
     {
@@ -26,7 +26,7 @@ const content = [
         description:
             'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
         button: 'Discover',
-        image: { Merc },
+        image: 'https://i.imgur.com/DCdBXcq.jpg',
 
 
     },
@@ -35,7 +35,7 @@ const content = [
         description:
             'Hi this is a test',
         button: 'Buy now',
-        image: { Aston },
+        image: '../../img/aston-2118857_1280.jpg',
 
     }
 ];
@@ -44,7 +44,8 @@ const content = [
 function ControlledCarousel() {
     return (
         <div className="Carousel_container">
-           <Slider className="slider-wrapper">
+                   	
+		<Slider className="slider-wrapper">
 			{content.map((item, index) => (
 				<div
 					key={index}
@@ -56,15 +57,10 @@ function ControlledCarousel() {
 						<p>{item.description}</p>
 						<button>{item.button}</button>
 					</div>
-					<section>
-						<img src={item.userProfile} alt={item.user} />
-						<span>
-							Posted by <strong>{item.user}</strong>
-						</span>
-					</section>
+					
 				</div>
 			))}
-		</Slider> 
+		</Slider>
         </div>
     )
 

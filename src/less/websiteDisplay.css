@@ -1,50 +1,57 @@
-.main_Container {
+body {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  margin-top: -50px;
+}
+body .main_Container {
   width: 100%;
   height: 1000px;
 }
-.main_Container .logo_container {
+body .main_Container .logo_container {
+  width: 200px;
   width: 40%;
 }
-.main_Container .logo_container .logo {
+body .main_Container .logo_container .logo {
   display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
 }
-.main_Container .contact_nav_container {
+body .main_Container .contact_nav_container {
   width: 60%;
 }
-.main_Container .contact_nav_container .contactInfo {
+body .main_Container .contact_nav_container .contactInfo {
   width: 100%;
   height: 50%;
 }
-.main_Container .contact_nav_container .contactInfo ul {
+body .main_Container .contact_nav_container .contactInfo ul {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main_Container .contact_nav_container .contactInfo ul li {
+body .main_Container .contact_nav_container .contactInfo ul li {
   padding-right: 1.25rem;
 }
-.main_Container .contact_nav_container .contactInfo ul i {
+body .main_Container .contact_nav_container .contactInfo ul i {
   font-size: 2vh;
   padding-right: 0.937rem;
   color: darkred;
 }
-.main_Container .contact_nav_container .contactInfo ul span {
+body .main_Container .contact_nav_container .contactInfo ul span {
   font-size: 2vh;
   font-weight: 400;
   color: black;
 }
-.main_Container .contact_nav_container .topNav {
+body .main_Container .contact_nav_container .topNav {
   width: 100%;
   height: 50%;
   display: flex;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.main_Container .contact_nav_container .topNav ul {
+body .main_Container .contact_nav_container .topNav ul {
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -52,10 +59,10 @@
   font-size: 2vh;
   background-color: darkred;
 }
-.main_Container .contact_nav_container .topNav ul .nav-link {
+body .main_Container .contact_nav_container .topNav ul .nav-link {
   color: white;
   text-decoration: none;
 }
-.main_Container .contact_nav_container .topNav ul .nav-link:hover {
+body .main_Container .contact_nav_container .topNav ul .nav-link:hover {
   border-bottom: 2px solid black;
 }
