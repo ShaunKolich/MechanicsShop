@@ -4,7 +4,7 @@ import '../../less/specials.css'
 class Specials extends Component {
     render() {
         return (
-            <div>
+            <div className="Page">
                 <h2>Specials</h2>
             </div>
         )

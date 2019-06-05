@@ -4,7 +4,7 @@ import '../../less/Appointment.less'
 class Appointment extends Component {
     render() {
         return (
-            <div>
+            <div className="Page">
                 <h2>Appointment</h2>
             </div>
         )
