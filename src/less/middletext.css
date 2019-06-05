@@ -1,12 +1,10 @@
 .middle_Text_container {
   width: 100%;
   height: 500px;
-  border: 2px solid blue;
 }
 .middle_Text_container .middle_img {
   width: 100%;
   height: 500px;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,13 +29,11 @@
 .middle_Text_container .middle_info {
   width: 100%;
   height: 100%;
-  border: 2px solid green;
   display: flex;
 }
 .middle_Text_container .middle_info .div1 {
   width: 50%;
   height: 100%;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +51,6 @@
 .middle_Text_container .middle_info .div2 {
   width: 100%;
   height: 100%;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +60,7 @@
   color: darkred;
   width: 100%;
   height: 100%;
-  border: 2px solid blue;
+  padding-top: 10px;
 }
 .middle_Text_container .middle_info .div2 p {
   width: 100%;
@@ -73,7 +68,6 @@
   font-size: 2.1vh;
   width: 50%;
   line-height: 1.5;
-  color: black;
 }
 @media (max-width: 1024px) {
   .middle_Text_container {
