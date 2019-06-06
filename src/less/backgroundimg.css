@@ -1,8 +1,15 @@
 .background-cont {
   width: 100%;
   height: 600px;
+  border: 2px solid red;
   background: linear-gradient(#111111, rgba(17, 17, 17, 0.5)), url(../img/auto-2179220_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+.background-cont img {
+  width: 100px;
+  height: 100px;
 }

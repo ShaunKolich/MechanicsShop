@@ -12,7 +12,7 @@ function MiddleText() {
                         <h2>Need Work Done?</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum, mi sed fermentum pulvinar, enim tortor dictum.
                         </p>
-                        <img src={Buggati}></img>
+                        <img src={Buggati} alt="logo"></img>
                     </div>
                 </Col>
                 <Col xs="2" sm="6">

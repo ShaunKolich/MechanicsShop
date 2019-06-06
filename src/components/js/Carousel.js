@@ -8,7 +8,7 @@ import '../../css/slider-animations.css';
 import '../../css/styles.css';
 
 
-import Bugatti from "../../img/car-49278_1280.jpg";
+import Maserati from "../../img/maserati-1649119_1280.jpg";
 import Merc from "../../img/amg-1880381_1280.jpg";
 import Aston from "../../img/aston-2118857_1280.jpg";
 
@@ -18,7 +18,7 @@ const content = [
         description:
             'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
         button: 'Read More',
-        image: 'https://i.imgur.com/DvmN8Hx.jpg',
+        image: Maserati,
 
     },
     {
@@ -26,7 +26,7 @@ const content = [
         description:
             'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
         button: 'Discover',
-        image: 'https://i.imgur.com/DCdBXcq.jpg',
+        image: Merc,
 
 
     },
@@ -35,7 +35,7 @@ const content = [
         description:
             'Hi this is a test',
         button: 'Buy now',
-        image:'../../img/aston-2118857_1280.jpg',
+        image: Aston,
 
     }
 ];
