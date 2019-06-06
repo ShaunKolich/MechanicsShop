@@ -4,7 +4,7 @@ import '../../less/home.css'
 
 import HeaderContainer from './header';
 import MiddleText from './middletext';
-import Back_Img from './backgroundimg';
+import BackImg from './backgroundimg';
 
 class Home extends Component {
     render() {
@@ -12,12 +12,11 @@ class Home extends Component {
             <div className="Page">
                 <Row>
                     <Col xs="12">
-                        <h2></h2>
-                        <HeaderContainer/>
+                      <HeaderContainer/>
                     </Col>
                 </Row>
                 <MiddleText />
-                <Back_Img/>
+                <BackImg/>
             </div>
         )
     }

@@ -68,6 +68,7 @@
   font-size: 2.0vh;
   width: 50%;
   line-height: 1.5;
+  color: black;
 }
 @media (max-width: 1024px) {
   .middle_Text_container {
